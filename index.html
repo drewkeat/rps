@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Play Rock, Paper, Scissors!</h1>
+    </header>
+    <div class="score-container">
+        <div class="score-board">
+            <h4>Scores</h4>
+            <div class="scores">
+                <div class="user badge">
+                    User
+                </div>
+                <span id="scores">
+                    <span id="user_score">0</span>
+                    :
+                    <span id="computer_score">0</span>
+                </span>
+                <div class="computer badge">
+                    Comp
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="choice-container">
+        <img class="choice" src="images/rock.png" alt="rock picture" id="rock" style="width: 25%">
+        <img class="choice" src="images/paper.png" alt="paper picture" id="paper" style="width: 25%">
+        <img class="choice" src="images/scissors.png" alt="scissors picture" id="scissors" style="width: 25%">
+    </div>
+    <div class="results-container">
+        <span id="result_message">Paper covers rock, you win!</span>
+        <span id="running_score">
+            <span id="user_total">0</span>
+            :
+            <span id="computer_total">0</span>
+        </span>
+    </div>
+    <footer><h3>KeatDev, Copyright 2021</h3></footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+header {
+    margin: 0px;
+    background-color: coral;
+}
+
+.score-board {
+    position: relative;
+    text-align: center;
+}
+
+.badge {
+    background-color: coral;
+    border-radius: 10%;
+    padding: 2px;
+    border: white solid 1px;
+}
+
+.user.badge{
+    position: absolute;
+    font-size: 15px;
+    top: 7px;
+    left: -25px;
+}
+
+.computer.badge{
+    position: absolute;
+    font-size: 15px;
+    top: 7px;
+    right: -30px;
+}
+
+.scores {
+    background-color: black;
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    padding: 0px 20px;
+    position: relative;
+    border: black solid 2px;
+}
+
+#scores, #user_score, #computer_score{
+    background-color: black;
+    color: white
+}
+
+.choice-container {
+    margin: 20px;
+    width: fit-content;
+}
+
+.choice {
+    background-color: seashell;
+    border: black solid 2px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 8px;
+    margin: 15px;
+}
+
+.choice:hover{
+    box-shadow: -3px 3px 8px;
+}
+
+.choice::click{
+    box-shadow: -3px 3px 8px;
+}
+
+.results-container {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    bottom: 5px;
+    background-color: coral;
+}
